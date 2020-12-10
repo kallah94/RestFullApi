@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { ClientComponent } from './client/client.component';
 import { AgenceComponent } from './agence/agence.component';
 import { CompteComponent } from './compte/compte.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { CompteComponent } from './compte/compte.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

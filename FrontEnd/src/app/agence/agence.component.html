@@ -1,1 +1,9 @@
-<p>agence works!</p>
+
+
+<ul>
+  <li *ngFor="let agence of agences">
+    {{agence.id}} {{agence.nom}} {{agence.addresse}} {{agence.telephone}}
+    <a (click)="update(agence.id)" class="text-success">update</a>
+    <a (click)="delete(agence.id)" class="text-danger">delete</a>
+  </li>
+</ul>

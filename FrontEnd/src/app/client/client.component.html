@@ -1,1 +1,7 @@
-<p>client works!</p>
+<ul>
+  <li *ngFor="let client of clients">
+    {{client.id}} {{client.prenom}} {{client.nom}} {{client.date_naissance}}
+    <a (click)="update(client.id)" class="text-success">update</a>
+    <a (click)="delete(client.id)" class="text-danger">delete</a>
+  </li>
+</ul>
