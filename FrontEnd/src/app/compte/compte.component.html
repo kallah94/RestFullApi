@@ -1,8 +1,0 @@
-
-<ul>
-  <li *ngFor="let compte of comptes">
-    {{compte.id}} {{compte.solde}} {{compte.decouvert}}
-    <a (click)="update(compte.id)" class="text-success">update</a>
-    <a (click)="delete(compte.id)" class="text-danger">delete</a>
-  </li>
-</ul>

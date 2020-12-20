@@ -22,9 +22,6 @@ public class agence implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
-    
-    @Column(unique = true)
-    private String code;
     private String nom;
     private String adresse;
     private String telephone;
@@ -45,6 +42,9 @@ public class agence implements Serializable {
         return hash;
     }
 
+    public agence() {
+    }
+
     @Override
     public boolean equals(Object object) {
         // TODO: Warning - this method won't work in the case the id fields are not set
@@ -56,14 +56,6 @@ public class agence implements Serializable {
             return false;
         }
         return true;
-    }
-
-    public String getCode() {
-        return code;
-    }
-
-    public void setCode(String code) {
-        this.code = code;
     }
 
     public String getNom() {

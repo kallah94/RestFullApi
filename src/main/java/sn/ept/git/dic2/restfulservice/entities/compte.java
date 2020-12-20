@@ -25,7 +25,6 @@ public class compte implements Serializable {
     private double decouverte;
 
     private Long agenceId;
-
     private Long clientId;
 
     public Long getAgenceId() {
@@ -51,6 +50,7 @@ public class compte implements Serializable {
     public void setId(Long id) {
         this.id = id;
     }
+
 
     @Override
     public int hashCode() {

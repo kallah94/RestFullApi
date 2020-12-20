@@ -1,12 +1,12 @@
 service/AgenceResources.class
 sn/ept/git/dic2/restfulservice/rest/EleveResource.class
 service/AbstractFacade.class
-sn/ept/git/dic2/restfulservice/services/AbstractFacade.class
 sn/ept/git/dic2/restfulservice/entities/agence.class
+sn/ept/git/dic2/restfulservice/services/AbstractFacade.class
 service/ClientResources.class
 sn/ept/git/dic2/restfulservice/JAXRSConfiguration.class
-sn/ept/git/dic2/restfulservice/services/EleveFacade.class
 sn/ept/git/dic2/restfulservice/services/ClientFacade.class
+sn/ept/git/dic2/restfulservice/services/EleveFacade.class
 service/CompteResources.class
 sn/ept/git/dic2/restfulservice/services/CompteFacade.class
 sn/ept/git/dic2/restfulservice/services/AgenceFacade.class
